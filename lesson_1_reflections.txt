@@ -1,0 +1,48 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+A: By calculating diff between two files, we can exactly know the location or 
+line numbers in the file where differences have been introduced. Hence, we
+can focus our attention to only those parts of file where there are differences
+and find the bug, instead of finding the bug in whole file.
+
+Q: How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+A: By have easy access to history of file, we can know when what changes were introduced.
+We can revevrt back those changes easily and hence can test with our code with different
+changes. It brings efficieny, since programmer does not have to save all the copies of
+same file with different modifications. He just need to maintain one file with its
+history.
+
+Q: What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+A: Manually creating commit
+Pro: Flexibility to the user, he can add commits based upon relevance, commits
+size can vary greatly depending upon his working style.
+Con: Commits size can differ among differents users. One user is used to smaller
+commits, while other larger, creating problem understanding each others commits.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+A: Git was invented by taking code as its primary consideration. So in projects,
+there are multiple files, which are related to each other. Hence when we make a
+commit it is logical to track all the files in project, so that a snapshot for 
+all the project is created at one time, since a project as whole is meaningful
+that an individual file.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: Git log will output all the user checkpoints created i.e. history of file.
+Using git diff we can select any 2 checkpoints in history and can see the
+differences created between 2 checkpoints. Hence we can run through the 
+history of file quiet easily
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: Well, using version control i can save the version that works fine. Then introduce the changes
+that can break something, then again i can revert back to the previous version.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: Firstly, I will create some files and commi them. Then make changes to files and 
+commit them. In this way I will create some commit history. I will look the
+difference between different commits.
+I will also try to see what info is saved related to a commit.
+
