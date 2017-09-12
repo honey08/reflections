@@ -18,14 +18,26 @@ in selecting particular changes to be included in current commit.
 
 Q: How can you use the staging area to make sure you have one commit per logical
 change?
+We will add ony those logical changes to staging area that we want in one commit
+using git add. Then commit these changes.
 
 Q: What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When we want to experiment with our code, or test some changes but at the same time
+allow us to keep original state.
+They help our code organised.
 
 Q: How do the diagrams help you visualize the branch structure?
+We can draw the graph using git log followed by branch names. Each commit in
+the diagram points to its parent commit, hence forming a grpah which helps us to
+understand the branch structure more intuitively.
 
 Q: What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+With merging we can get chnages of 2 branches in a single branch. It is represented in
+the graph diagram which shows each commits pointing towards its parents.
 
 Q: What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Pro: User dont need to worry. Hassle free.
+Cons: Can lead to error in the code. Code may not compile.

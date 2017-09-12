@@ -2,3 +2,9 @@ Q: When would you want to use a remote repository rather than keeping all your w
 A: If we want to share our work with other people and allow them to make changes, then we would want to create a
    remote repository. Also creating a remote repository will help us in recovering our repository/work in case of
    accidental deletion of our project from local machine.
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: forks: they are used to create a new repository from an existing repository.
+   clones: this is used to download a repository to a local machine from github.
+   branches: if we want to test a new feature without breaking our existing code, we can make a new branch
+   and makes changes there instead on master branch.
