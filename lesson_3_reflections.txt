@@ -8,3 +8,7 @@ A: forks: they are used to create a new repository from an existing repository.
    clones: this is used to download a repository to a local machine from github.
    branches: if we want to test a new feature without breaking our existing code, we can make a new branch
    and makes changes there instead on master branch.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: We can check the status of our local branch and remote branch offline and see if any divergence
+   has occured.
