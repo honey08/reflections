@@ -11,4 +11,8 @@ A: forks: they are used to create a new repository from an existing repository.
 
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: We can check the status of our local branch and remote branch offline and see if any divergence
-   has occured.
+   has occured.i
+
+q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: Without github, I will mail the code to my collabotors or share it onliine with them, then wait for their
+   response. I will also maintain different copies of code locally for my reference. It would be harder.
